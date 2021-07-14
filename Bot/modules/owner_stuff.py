@@ -38,11 +38,11 @@ def stats(update, context):
     update.effective_message.reply_text(
         
         "*Chizuru, the lewd one near you*\n" + 
-        "built by [Dank-del](t.me/dank_as_fuck)\n" +
+        "Built by [Yoga Pranata](t.me/Yoga_CIC)\n" +
         "Built with ❤️ using python-telegram-bot\n\n" + status +
         "*Current Stats*:\n"
         + "\n".join([mod.__stats__() for mod in STATS]) + 
-        "\n\n© *2020-2021 Dank-del*",
+        "\n\n© *2020-2021 Yoga Pranata*",
     parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
     
     
